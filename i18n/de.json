@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tobias Weller"
+		]
+	},
+	"semantichierarchy": "Semantic Hierarchy",
+	"sh-semantichierarchy": "Semantic Hierarchy",
+	"sh-desc": "Erlaubt die Erstellung und Manipulation von Kategorien und Attributen.",
+	"sh-special-page-description": "'''Explanation'''\n*Shift Categories and Properties to change the Semantic Hierarchy. Multiple Categories/Properties (within the same parent node) can be selected and shifted.\n*Shifting Properties to Categories and vice versa is not possible.\n*Adding a node leads to a new wiki page.\n*Delete function is due to security reasons currently disabled. deleting a node leads to a deletion in the Tree. However, it has no effects on Semantic MediaWiki.\n*Jump to Page creates a new tab with the corresponding wiki page of the selected item.\n*''Note: Loading Cateogries can take up to 30 seconds (depending on the amount of Cateogries and Properties)''",
+	"sh-special-title": "Semantic Hierarchy",
+	"sh-category-table-header": "Kategorien",
+	"sh-property-table-header": "Attribute",
+	"sh-category-content": "Diese Kategorie wurde automatisch mittels der Semantic Hierarchy Erweiterung erstellt.",
+	"sh-property-content": "Dieses Attribut wurde automatisch mittels der Semantic Hierarchy Erweiterung erstellt.",
+	"sh-reject-message": "Bitte geben Sie den Seitenname ein."
+}

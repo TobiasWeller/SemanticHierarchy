@@ -1,0 +1,64 @@
+{
+	"name": "Semantic Hierarchy",
+	"version": "1.0",
+	"author": [
+		"[http://www.aifb.kit.edu/web/Tobias_Weller Tobias Weller]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Semantic Hierarchy",
+	"descriptionmsg": "sh-desc",
+	"license-name": "MIT",
+	"type": "semantic",
+	"AutoloadClasses": {
+		"SemanticHierarchySpecial": "specials/SemanticHierarchySpecial.php",
+		"SemanticHierarchy": "SemanticHierarchy.php"
+	},
+	"config": {
+		"BoilerPlateEnableFoo": true
+	},
+	"ExtensionMessagesFiles": {
+		"SemanticHierarchyAlias": "SemanticHierarchy.i18n.alias.php"
+	},
+	"MessagesDirs": {
+		"SemanticHierarchy": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.semanticHierarchy.special": {
+			"scripts": [
+				"modules/ext.semanticHierarchy.api.js",
+				"modules/ext.semanticHierachy.settings.js",
+				"modules/ext.semanticHierarchy.js",
+				"modules/ext.semanticHierarchy.context.js",
+				"modules/lib/jquery.ztree.core.min.js",
+				"modules/lib/jquery.ztree.excheck.min.js",
+				"modules/lib/jquery.ztree.exedit.min.js",
+				"modules/lib/sweetalert2.min.js"
+			],
+			"styles": [
+				"modules/ext.semanticHierarchy.css",
+				"modules/lib/css/app.css",
+				"modules/lib/css/demo.css",
+				"modules/lib/css/zTreeStyle.css",
+				"modules/lib/css/sweetalert2.min.css"
+			],
+			"messages": [
+				"sh-semantichierarchy",
+				"sh-special-page-description",
+				"sh-category-content",
+				"sh-property-content",
+				"sh-reject-message"
+			],
+			"dependencies": [
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SemanticHierarchy"
+	},
+	"SpecialPages": {
+		"SemanticHierarchy": "SemanticHierarchySpecial"
+	},
+	"manifest_version": 1
+}
