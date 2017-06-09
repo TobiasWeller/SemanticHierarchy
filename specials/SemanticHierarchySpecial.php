@@ -66,11 +66,11 @@ $out->addHTML( "
 
 <!-- <li class='edit'><a href='#'> editing </a></li> -->
 
-<li class='add'><a href='#'> add </a></li>
+<li class='add'><a href='#'> ".$this->msg( 'sh-context-add-node' )." </a></li>
 
-<li class='jump'><a href='#'> jump to page </a></li>
+<li class='jump'><a href='#'> ".$this->msg( 'sh-context-jump-to-page' )." </a></li>
 
-<li class='delete'><a href='#'> delete style </a></li>
+<li class='delete'><a href='#'> ".$this->msg( 'sh-context-delete-node' )." </a></li>
 
 <!-- <li class='small-menu-separator'></li> -->
 

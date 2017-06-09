@@ -249,13 +249,11 @@ function initTreeProperty() {
 }
 
 function myOnDrop(event, treeId, treeNodes, targetNode, moveType) {
-    debugger;
     for (var i = 0; i < treeNodes.length; i++) {
         //Auf den Treenode pages die Categor[[]] löschen und ersetzen durch den targetNode
         //Suche Vater
         var pagename = treeNodes[i].name;
         api.getPageContent(pagename, function(content) {
-        	debugger;
             if (previousFatherNode == null) {
                 //Hatte keinen Vater Knoten bisher
                 if (isCategory(pagename)) {

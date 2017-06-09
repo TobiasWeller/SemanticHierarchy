@@ -13,5 +13,8 @@
 	"sh-property-table-header": "Attribute",
 	"sh-category-content": "Diese Kategorie wurde automatisch mittels der Semantic Hierarchy Erweiterung erstellt.",
 	"sh-property-content": "Dieses Attribut wurde automatisch mittels der Semantic Hierarchy Erweiterung erstellt.",
-	"sh-reject-message": "Bitte geben Sie den Seitenname ein."
+	"sh-reject-message": "Bitte geben Sie den Seitenname ein.",
+	"sh-context-add-node":"Hinzufügen",
+	"sh-context-jump-to-page":"Gehe zu Seite",
+	"sh-context-delete-node":"Löschen"
 }

@@ -13,5 +13,8 @@
 	"sh-property-table-header": "Properties",
 	"sh-category-content": "This category was automatically created by using Semantic Hierarchy Extension.",
 	"sh-property-content": "This property was automatically created by using Semantic Hierarchy Extension.",
-	"sh-reject-message": "Please enter a pagename."
+	"sh-reject-message": "Please enter a pagename.",
+	"sh-context-add-node":"Add",
+	"sh-context-jump-to-page":"Jump to Page",
+	"sh-context-delete-node":"Delete"
 }
