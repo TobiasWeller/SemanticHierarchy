@@ -4,7 +4,7 @@
 Semantic Hierarchy
 ======================
 
-The repository contains the Semantic Hierarchy extension for semantic MediaWiki. The extension provides a plugin for capturing Text Annotations of wiki articles.
+The repository contains the Semantic Hierarchy extension for Semantic MediaWiki. The extension provides a plugin for capturing Text Annotations of wiki articles.
 
 <!--Click [here](https://sandbox.semantic-mediawiki.org/wiki/HaloTestEvent) for a Demo. -->
 
